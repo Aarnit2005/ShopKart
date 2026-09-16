@@ -1,0 +1,11 @@
+### Create Product
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Gaming Laptop",
+  "description": "High performance laptop",
+  "price": 75000,
+  "stock": 10,
+  "category": "Electronics"
+}
